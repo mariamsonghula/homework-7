@@ -84,7 +84,7 @@ header{
     width: 463px;
     border: 1px solid #FFFFFF;
     background-color: rgba(255, 255, 255, .2);
-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     position: absolute;
     display: flex;
     justify-content: flex-end;
@@ -103,4 +103,96 @@ backdrop-filter: blur(10px);
 }
 .fa-magnifying-glass{
     color:  #FFFFFF;
+}
+
+/* section2  */
+.section2{
+   width: 100%;
+   height: 100%;
+   padding: 254px 100px;
+   
+}
+.sectionh2{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+.cards{
+    display: flex;
+    gap: 55px;
+    width: 100%;
+    margin-top: 81px;
+  
+    
+}
+.sectiondiv1, .sectiondiv2, .sectiondiv3{
+    width: 100%;
+    height: 288px;
+    background-color: #FFFFFF;
+    border: solid #DCB47A;
+    padding: 30px 41px ;
+    height: 400px;
+    
+}
+.box1{
+    display: flex;
+}
+.divtext{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-top: 54px;
+    
+}
+.divtext1{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-top: 17px;
+}
+
+/* footer  */
+footer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #262626;
+    padding: 60px;
+    row-gap: 49px;
+   
+}
+.footerh2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footertext{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+span{
+    color: #DCB47A;
+}
+  
+  
+
+.buttondiv{
+    border-width: 200px;
+    background-color: #DCB47A;
+    border-radius: 60px;
+    padding: 10px 61px;
+}
+.footerbutton{
+    
+    border: none;
+    background: none;
+}
+.buttontext{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
 }
